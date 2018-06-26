@@ -27,7 +27,7 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 current_line = current_line + 1
-print_a_line(current_line, current_file)
+print_a_line(current_line, current_file) # adds it by one
 
-current_line = current_line + 1
+current_line = current_line + 1 # adds it again by one 
 print_a_line(current_line, current_file)
