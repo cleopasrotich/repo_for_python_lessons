@@ -11,7 +11,7 @@ print "I said: %r" % x #string inside a string
 print "I also said: '%s'." % y #string inside a string
 
 hilarious = False
-joke_evaluation = "Isn't that joke so funny?! %r"
+joke_evaluation = "Isn't that joke so funny?! %r" # string inside a string.
 
 print joke_evaluation % hilarious
 
