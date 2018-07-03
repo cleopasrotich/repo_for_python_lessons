@@ -1,5 +1,5 @@
 balance = -1
-checkBalance = True
+checkBalance = False
 isActive = True
 
 if not(checkBalance):
