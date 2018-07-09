@@ -1,5 +1,6 @@
 from sys import exit
 
+
 def gold_room():
     print "This room is full of gold.How much do you take."
 
@@ -7,11 +8,11 @@ def gold_room():
     if "0" in next or "1" in next:
         how_much = int(next)
     else:
-        dead("Man, learn to type a number") 
+        dead("Man, learn to type a number")
 
     if how_much < 50:
         print "Nice, you're not greedy. You win the game!"
-        exit(0) 
+        exit(0)
     else:
         dead("You greedy bastered.")
 
@@ -20,7 +21,7 @@ def bear_room():
     print "There is a bear here."
     print "The bear has a bunch of honey."
     print "The fat bear is front of another door."
-    print "How are you going to move the bear." 
+    print "How are you going to move the bear."
     bear_moved = True
 
     while True:
@@ -59,6 +60,7 @@ def dead(why):
     print why, "Good job!"
     exit(0)
 
+
 def start():
     print "You're in a dark room."
     print "There is a door to your right and left."
@@ -74,4 +76,7 @@ def start():
         dead("You stumble around the room till you starve.")
 
 
-start()#you call the first function
+start()  # you call the first function
+
+
+# if statements should not be nested more than two deep.
